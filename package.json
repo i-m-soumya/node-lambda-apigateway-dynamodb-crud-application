@@ -1,5 +1,28 @@
 {
   "dependencies": {
     "aws-sdk": "^2.1171.0"
-  }
+  },
+  "name": "aws-lambda-apigateway-dynamodb-sqs-sns",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i-m-soumya/node-lambda-apigateway-dynamodb-sns-sqs.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "apigateway",
+    "dynamodb",
+    "sqs",
+    "sns",
+    "node"
+  ],
+  "author": "Soumya Ghosh",
+  "license": "ISC",
+  "homepage": "https://github.com/i-m-soumya/node-lambda-apigateway-dynamodb-sns-sqs",
+  "description": ""
 }
