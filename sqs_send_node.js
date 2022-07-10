@@ -1,7 +1,7 @@
-const AWS = require('aws-sdk');
+const AWS = require('aws-sdk')
 
 
-AWS.config.region = 'ap-south-1';
+AWS.config.region = 'ap-south-1'
 const SQS = new AWS.SQS({})
 
 
