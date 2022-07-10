@@ -3,7 +3,6 @@ const AWS = require('aws-sdk');
 
 AWS.config.region = 'ap-south-1';
 
-
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 const dynamoDbTableName = 'products';
 const healthPath = '/health';
