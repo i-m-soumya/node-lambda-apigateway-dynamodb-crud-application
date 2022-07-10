@@ -19,7 +19,7 @@ function sendMessage() {
             },
         },
             MessageBody: "This is a piece of important information!",
-            QueueUrl: "https://sqs.ap-south-1.amazonaws.com/813823995644/hello-world-sqs"
+            QueueUrl: "QUEUE_URL"
     }
 
     SQS.sendMessage(params, (error, response) => {

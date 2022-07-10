@@ -6,7 +6,7 @@ const SQS = new AWS.SQS({})
 
 const params = {
     MaxNumberOfMessages: 10,
-    QueueUrl: "https://sqs.ap-south-1.amazonaws.com/813823995644/hello-world-sqs"
+    QueueUrl: "QUEUE_URL"
 }
 
 SQS.receiveMessage(params, (error, response) => {
