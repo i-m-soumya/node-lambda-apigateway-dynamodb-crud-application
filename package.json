@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "aws-sdk": "^2.1171.0"
+    "aws-sdk": "^2.1354.0"
   },
   "name": "aws-lambda-apigateway-dynamodb-sqs-sns",
   "version": "1.0.0",
